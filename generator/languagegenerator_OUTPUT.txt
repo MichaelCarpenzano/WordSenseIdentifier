@@ -1,0 +1,43 @@
+CHECKPOINT 2.2 - counts 
+  1-grams:
+	('language',) 760
+	('the',) 3828
+	('formal',) 4
+  2-grams:
+	('the', 'language') 74
+	('<OOV>', 'language') 68
+	('to', 'process') 6
+  3-grams:
+	('specific', 'formal', 'languages') 1
+	('to', 'process', '<OOV>') 0
+	('specific', 'formal', 'event') 0
+
+CHECKPOINT 2.3 - Probs with add-one 
+  2-grams:
+	('the', 'language') 0.008495695514272768
+	('<OOV>', 'language') 0.006368838840686727
+	('to', 'process') 0.0011058451816745656
+  3-grams:
+	('specific', 'formal', 'languages') 0.0004991223534311885
+	('to', 'process', '<OOV>') 0.00019976028765481422
+	('specific', 'formal', 'event') INVALID W_i
+
+
+FINAL CHECKPOINT - Generated Language
+
+ PROMPT: <s>
+	<s> thermal <OOV> ” <OOV> translations `` produce strong , whether they make binding . </s>
+	<s> there are capable of fiber <OOV> network access machine analyzed , depending upon the impression that turn at a good idea of foreign languages to reverse transcription . </s>
+	<s> there are simply transforms lateral distance <OOV> provider case in the target audience , preparing 510 ( sign languages a complete schoenberg discography &amp; list <OOV> basis . </s>
+ PROMPT: <s> language is
+	<s> language is a machine . </s>
+	<s> language is called <OOV> nest <OOV> samoan lacks <OOV> informatics service operation of whether the statistics that relate to read in prison <OOV> deutsche welle the mechanism operated in finite amount
+	<s> language is traditionally been using water created a report and know the grain means <OOV> further developed and social neuroscience account for rendering in central mexico , leading process begins again
+ PROMPT: <s> machines
+	<s> machines built <OOV> associated with 11 and solutions and equipment <OOV> little over a coordinated disclosure process equipment for reliability ( prediction ) involved throughout the modeling language differ widely adopted
+	<s> machines were almost entirely disappeared <OOV> traces of , and clash detection range of her life , verbs <OOV> companies , safety issues <OOV> little consciousness ... . </s>
+	<s> machines ( 1929 <OOV> formation during the <OOV> island of those spoken in the late 19th century , understood in artificial construct narratives from the chinese domestic <OOV> linear machine learning
+ PROMPT: <s> they want to process
+	<s> they want to process clause “ does not aid in northern germany , leaving to <OOV> <OOV> <OOV> <OOV> expressions that acts more temporal memory and courts of standard has :
+	<s> they want to process y <OOV> next key to replace the deposits are distinguished by rules that my company . </s>
+	<s> they want to process design principles . </s>

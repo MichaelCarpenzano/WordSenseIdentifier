@@ -1,0 +1,148 @@
+
+Training process model:
+
+Training Logistic Regression...
+  epoch: 0, loss: 1.79843
+  epoch: 100, loss: 1.30187
+  epoch: 200, loss: 1.13179
+  epoch: 300, loss: 1.07369
+  epoch: 400, loss: 1.04838
+  epoch: 500, loss: 1.03408
+  epoch: 600, loss: 1.02440
+  epoch: 700, loss: 1.01717
+  epoch: 800, loss: 1.01145
+  epoch: 900, loss: 1.00673
+  epoch: 1000, loss: 1.00271
+  epoch: 1100, loss: 0.99921
+  epoch: 1200, loss: 0.99609
+  epoch: 1300, loss: 0.99325
+  epoch: 1400, loss: 0.99063
+  epoch: 1500, loss: 0.98817
+  epoch: 1600, loss: 0.98586
+  epoch: 1700, loss: 0.98366
+  epoch: 1800, loss: 0.98155
+  epoch: 1900, loss: 0.97952
+  epoch: 2000, loss: 0.97756
+  epoch: 2100, loss: 0.97566
+  epoch: 2200, loss: 0.97380
+  epoch: 2300, loss: 0.97200
+  epoch: 2400, loss: 0.97023
+
+Training machine model:
+
+Training Logistic Regression...
+  epoch: 0, loss: 1.78596
+  epoch: 100, loss: 1.28914
+  epoch: 200, loss: 1.11686
+  epoch: 300, loss: 1.05648
+  epoch: 400, loss: 1.02929
+  epoch: 500, loss: 1.01339
+  epoch: 600, loss: 1.00228
+  epoch: 700, loss: 0.99371
+  epoch: 800, loss: 0.98673
+  epoch: 900, loss: 0.98083
+  epoch: 1000, loss: 0.97569
+  epoch: 1100, loss: 0.97111
+  epoch: 1200, loss: 0.96697
+  epoch: 1300, loss: 0.96314
+  epoch: 1400, loss: 0.95958
+  epoch: 1500, loss: 0.95622
+  epoch: 1600, loss: 0.95304
+  epoch: 1700, loss: 0.94999
+  epoch: 1800, loss: 0.94707
+  epoch: 1900, loss: 0.94425
+  epoch: 2000, loss: 0.94153
+  epoch: 2100, loss: 0.93888
+  epoch: 2200, loss: 0.93631
+  epoch: 2300, loss: 0.93381
+  epoch: 2400, loss: 0.93137
+
+Training language model:
+
+Training Logistic Regression...
+  epoch: 0, loss: 1.79695
+  epoch: 100, loss: 1.29739
+  epoch: 200, loss: 1.12485
+  epoch: 300, loss: 1.06514
+  epoch: 400, loss: 1.03877
+  epoch: 500, loss: 1.02370
+  epoch: 600, loss: 1.01345
+  epoch: 700, loss: 1.00576
+  epoch: 800, loss: 0.99966
+  epoch: 900, loss: 0.99463
+  epoch: 1000, loss: 0.99037
+  epoch: 1100, loss: 0.98665
+  epoch: 1200, loss: 0.98336
+  epoch: 1300, loss: 0.98037
+  epoch: 1400, loss: 0.97763
+  epoch: 1500, loss: 0.97509
+  epoch: 1600, loss: 0.97270
+  epoch: 1700, loss: 0.97045
+  epoch: 1800, loss: 0.96830
+  epoch: 1900, loss: 0.96624
+  epoch: 2000, loss: 0.96426
+  epoch: 2100, loss: 0.96236
+  epoch: 2200, loss: 0.96051
+  epoch: 2300, loss: 0.95872
+  epoch: 2400, loss: 0.95698
+
+[TESTING UNIGRAM WSD MODELS]
+process:
+    predictions for process.NOUN.000018: [0.6267971992492676, 2.3523802757263184, -1.1099421977996826, -0.09815376996994019, -1.0938078165054321, -0.711582362651825]
+    predictions for process.NOUN.000024: [0.6572359204292297, 2.4433438777923584, -1.1845946311950684, -0.04048348218202591, -1.1729514598846436, -0.7729774713516235]
+    correct: 141 out of 202
+machine:
+    predictions for machine.NOUN.000004: [-0.5929063558578491, 2.231781005859375, 0.6648306846618652, -0.13013529777526855, -1.2281068563461304, -1.0287789106369019]
+    predictions for machine.NOUN.000008: [-0.652106761932373, 2.2349941730499268, 0.6221400499343872, -0.08110695332288742, -1.2413430213928223, -0.9666274785995483]
+    correct: 138 out of 202
+language:
+    predictions for language.NOUN.000008: [-1.220381498336792, 0.8793255090713501, -0.034880176186561584, -1.0591444969177246, 2.098698139190674, -0.695809006690979]
+    predictions for language.NOUN.000014: [-1.2500584125518799, 0.6241894960403442, -0.059493742883205414, -1.0013847351074219, 2.3181726932525635, -0.7048301696777344]
+    correct: 142 out of 202
+
+Distances between select words:
+('language', 'process') : 1.2847225698594085
+('machine', 'process') : 1.329229100805935
+('language', 'speak') : 0.9306530322649311
+('word', 'words') : 0.36197877273809087
+('word', 'the') : 1.0104398502368963
+
+Training process model:
+
+Training Logistic Regression...
+  epoch: 0, loss: 1.84919
+  epoch: 100, loss: 0.90929
+  epoch: 200, loss: 0.86743
+  epoch: 300, loss: 0.83947
+  epoch: 400, loss: 0.81797
+
+Training machine model:
+
+Training Logistic Regression...
+  epoch: 0, loss: 1.75972
+  epoch: 100, loss: 0.86605
+  epoch: 200, loss: 0.81282
+  epoch: 300, loss: 0.77908
+  epoch: 400, loss: 0.75463
+
+Training language model:
+
+Training Logistic Regression...
+  epoch: 0, loss: 1.76502
+  epoch: 100, loss: 0.89807
+  epoch: 200, loss: 0.86053
+  epoch: 300, loss: 0.83452
+  epoch: 400, loss: 0.81401
+
+process:
+    predictions for process.NOUN.000018: [0.053961753845214844, 2.841228723526001, -0.2711911201477051, 1.2323943376541138, -2.5654821395874023, -1.2475850582122803]
+    predictions for process.NOUN.000024: [0.5177024602890015, 3.6126937866210938, -1.3960435390472412, 1.7138630151748657, -2.7847394943237305, -1.772415280342102]
+    correct: 142 out of 202
+machine:
+    predictions for machine.NOUN.000004: [-0.41409575939178467, 3.1073389053344727, 0.899432897567749, 0.15712590515613556, -1.0512322187423706, -2.57068133354187]
+    predictions for machine.NOUN.000008: [0.01999104768037796, 2.6004486083984375, 1.226997971534729, -0.9016253352165222, -1.8120057582855225, -0.935041069984436]
+    correct: 143 out of 202
+language:
+    predictions for language.NOUN.000008: [-1.5196361541748047, 0.07716792821884155, 0.9268883466720581, -0.6060593128204346, 2.478374481201172, -1.2418967485427856]
+    predictions for language.NOUN.000014: [-0.8521453142166138, -0.02988678216934204, -0.31387388706207275, -0.4805351495742798, 2.0909929275512695, -0.1649443358182907]
+    correct: 144 out of 202
